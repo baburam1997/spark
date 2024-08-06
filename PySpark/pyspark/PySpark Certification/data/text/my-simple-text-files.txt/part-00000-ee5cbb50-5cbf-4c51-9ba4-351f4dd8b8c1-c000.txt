@@ -1,0 +1,28 @@
+appName: Sets the name of the Spark application.
+Example: .appName("My Spark Application")
+
+master: Specifies the cluster manager to connect to. It can be set to "local" for running Spark in local mode or a URL for connecting to a remote cluster.
+Example: .master("local")
+
+config: Allows you to set various configuration options for Spark. These options can be specified as key-value pairs.
+Example: .config("spark.some.config.option", "some-value")
+
+enableHiveSupport: Enables Hive support in the Spark session, allowing you to use Hive's SQL dialect and Hive metastore.
+Example: .enableHiveSupport()
+
+spark.executor.memory: Sets the amount of memory to be allocated per executor. It can be specified with a size suffix such as "g" for gigabytes or "m" for megabytes.
+Example: .config("spark.executor.memory", "4g")
+
+spark.driver.memory: Sets the amount of memory to be allocated for the Spark driver program.
+Example: .config("spark.driver.memory", "2g")
+
+spark.sql.shuffle.partitions: Sets the number of partitions to be used when shuffling data in Spark SQL.
+Example: .config("spark.sql.shuffle.partitions", "200")
+
+spark.sql.catalogImplementation: Sets the catalog implementation for Spark SQL. It can be set to "hive" for Hive catalog or "in-memory" for an in-memory catalog.
+Example: .config("spark.sql.catalogImplementation", "hive")
+
+spark.jars: Specifies a comma-separated list of JAR files to be distributed with the Spark application.
+Example: .config("spark.jars", "path/to/jar1,path/to/jar2")
+
+

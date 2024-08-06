@@ -1,0 +1,10 @@
+Download Spark from 
+    https://spark.apache.org/downloads.html 
+    3.Download Spark: spark-3.5.1-bin-hadoop3.tgz
+extract with
+    $tar xvf spark-3.5.1-bin-hadoop3.tgz
+move to usr/local/spark with   
+    $sudo mv spark-3.5.1-bin-hadoop3 /usr/local/spark
+export path with
+    $export PATH=$PATH:/usr/local/spark/bin
+    $source ~/.bashrc

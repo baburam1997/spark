@@ -1,0 +1,16 @@
+$java -version
+    if installed:
+        openjdk version "11.0.24" 2024-07-16
+        OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+        OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+    else:
+        install with $sudo apt install default-jre
+        (https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)
+
+$scala -version
+    if installed:
+        Scala code runner version 2.11.12 -- Copyright 2002-2017, LAMP/EPFL
+    else:
+        install with $sudo apt install scala
+        (https://www.tutorialspoint.com/apache_spark/apache_spark_installation.htm)
+
