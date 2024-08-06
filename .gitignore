@@ -6,6 +6,7 @@
 *.parquet
 .venv/
 TheoryNotes/
+PySpark/pyspark/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
